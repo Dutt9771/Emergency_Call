@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Family Member Name 1"
+            android:autofillHints=""
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edit_text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Family Member Number 1"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edit_text_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Family Member Name 1"
+            android:autofillHints=""
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/edit_text_message1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Family Member Number 2"
+            android:autofillHints=""
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/bloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group "
+            android:autofillHints=""
+            android:inputType="text" />
+
+
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendOnChannel1"
+            android:id="@+id/btn"
+            android:text="@string/Channel1" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
